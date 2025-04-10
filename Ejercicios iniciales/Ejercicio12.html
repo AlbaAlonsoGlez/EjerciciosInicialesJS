@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio1</title>
+    </head>
+<body>
+
+<p>innerHtml controla que puede incluirse en un elemento.</p>
+<div id ="salida"></div>
+
+<script>
+let dato, num;
+
+dato = window.prompt("Introduce un número :)", "0"); num = parseInt(dato);
+dato2 = window.prompt("Introduce otro número :)", "0"); num2 = parseInt(dato2);
+
+let resultado = num - num2;
+
+let resultado2 = num * num2;
+
+document.getElementById("salida").innerHTML = (`El resultado de la resta de los números es ${resultado} y el resultado de la multiplicación es ${resultado2}`);
+
+</script>
+
+</body>
+</html>
