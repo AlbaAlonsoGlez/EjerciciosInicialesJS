@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales: ejercicio 2</title>
+    <script>
+        let dato1, dato2, dato3, media;
+        dato1 = parseInt(window.prompt("Primer número?", "0")); 
+        dato2 = parseInt(window.prompt("Segundo número?", "0")); 
+        dato3 = parseInt(window.prompt("Tercer número?", "0"));
+        media = (dato1 + dato2 + dato3)/3; 
+        
+        if (media >5)
+        {
+            resultado = " Suspendido";
+        }
+        else
+        {
+            resultado = " Aprobado";
+        }
+        document.write(`<h3>La nota final es ${resultado} </h3>`);
+
+    </script>
+</head>
+</html>
